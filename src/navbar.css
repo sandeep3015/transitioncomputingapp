@@ -1,0 +1,58 @@
+.navbar-container {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(252, 253, 253);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+}
+
+.logout-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    margin: 5px;
+}
+
+.owner-button {
+    background-color: rgb(204, 162, 37);
+    width: max-content;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    height: 25px;
+    margin: 5px;
+    text-align: center;
+}
+
+.admin-button {
+    background-color: rgb(199, 26, 179);
+    width: max-content;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    height: 25px;
+    color: white;
+    margin: 5px;
+    text-align: center;
+}
